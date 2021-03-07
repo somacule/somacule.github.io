@@ -14,14 +14,14 @@ category: calculation
 > 通常径向分布函数RDF表示为g(*r*)
 
 ```markdown
-![中心原子的r到r+dr](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2380327841,484091491&fm=26&gp=0.jpg)
+https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2380327841,484091491&fm=26&gp=0.jpg
 ```
+
+https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2380327841,484091491&fm=26&gp=0.jpg
 
 # RDF计算
 
 RDF可以从多种理论和实验方法得到，包括但不限于经典/从头计算分子动力学（MD/AIMD），同步辐射X射线拓展边吸收谱（EXAFS）等。其中，经典分子动力学由于计算量较小，精度尚可，且模拟体系较大，可达成千上万个原子，因此常用模拟平衡后的体系，进行RDF计算。常见的计算软件自带的计算方法通常只能得出一类原子的RDF数据，统计平均化了各个原子的局域配位环境。本脚本可以通过使用gromacs内建RDF程序导出单个原子的RDF，最后直接求解单个原子的配位环境。
-
-
 
 # Code
 
