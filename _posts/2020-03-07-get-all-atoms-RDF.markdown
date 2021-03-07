@@ -1,5 +1,5 @@
 ---
-layout: getallatopmsRDF
+layout: post
 title: Get all atoms RDF
 date: 2020-03-07 20:20:23 +0900
 category: calculation
@@ -13,7 +13,9 @@ category: calculation
 >
 > 通常径向分布函数RDF表示为g(*r*)
 
-![avatar]([https://bkimg.cdn.bcebos.com/pic/359b033b5bb5c9ea607cd60fd739b6003bf3b34b?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg] "中心原子的r到r+dr")
+```markdown
+![中心原子的r到r+dr](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2380327841,484091491&fm=26&gp=0.jpg)
+```
 
 # RDF计算
 
