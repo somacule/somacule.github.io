@@ -4,7 +4,7 @@ title: Get all atoms RDF
 date: 2020-03-07 20:20:23 +0900
 category: calculation
 ---
-### RDF定义
+# RDF定义
 > [径向分布函数](https://baike.baidu.com/item/%E5%BE%84%E5%90%91%E5%88%86%E5%B8%83%E5%87%BD%E6%95%B0/12723225?fr=aladdin)（Radial distribution function）通常指的是给定某个粒子的坐标，其他粒子在空间的分布几率（离给定粒子多远）。所以径向分布函数既可以用来研究物质的有序性，也可以用来描述电子的相关性。
 >
 > 如果给定粒子当做原点，体系平均粒子数密度为*r<sub>ho</sub>*=N/V，则距原点为r处的局部时间平均的密度为*r<sub>ho</sub>*×g(r) 。这是对均匀的各向同性系统的简化定义。
@@ -13,9 +13,9 @@ category: calculation
 >
 > 通常径向分布函数RDF表示为g(*r*)
 
-![中心原子的r到dr之间](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2380327841,484091491&fm=26&gp=0.jpg)
+<div align=center>![中心原子的r到dr之间](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2380327841,484091491&fm=26&gp=0.jpg)
 
-### RDF计算
+# RDF计算
 
 RDF可以从多种理论和实验方法得到，包括但不限于经典/从头计算分子动力学（MD/AIMD），同步辐射X射线拓展边吸收谱（EXAFS）等。其中，经典分子动力学由于计算量较小，精度尚可，且模拟体系较大，可达成千上万个原子，因此常用模拟平衡后的体系，进行RDF计算。常见的计算软件自带的计算方法通常只能得出一类原子的RDF数据，统计平均化了各个原子的局域配位环境。本脚本可以通过使用gromacs内建RDF程序导出单个原子的RDF，最后直接求解单个原子的配位环境。
 
