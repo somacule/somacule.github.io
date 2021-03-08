@@ -13,8 +13,11 @@ category: calculation
 >
 > 通常径向分布函数RDF表示为g(*r*)
 
+<span><div style="text-align: center;">
 
 ![中心原子的r到dr之间](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2380327841,484091491&fm=26&gp=0.jpg)
+
+</div></span>
 
 
 # RDF计算
@@ -104,10 +107,4 @@ while True:
 for f in list:
 	intro(f)
 write_ClO()
-```
-
-```
-<style type="text/css">
-img{text-align: center; margin: 0 auto;}
-</style>
 ```
